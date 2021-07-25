@@ -1,0 +1,66 @@
+body{
+    background:url("https://depositphotos.com/22260019/stock-photo-electric-lighting-effect-abstract-techno.html")
+  }
+  hr{
+    color: #f3e7bf;
+  }
+  #main{
+    font-size: 1.5rem;
+    background-color: #f3e7bf;
+    margin: auto;
+    text-align: center;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  #title{
+    font-size: 2.5rem;
+    padding: 20px 0 0 0;
+    
+  }
+  #img-div{
+    width: 98%;
+    background-color: #f3e7bf;
+    margin:auto;
+  }
+  #image{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+  }
+  #img-caption{
+    font-size: 1.5rem;
+  }
+  #tribute-info{
+    width: 50%;
+    background-color: #f3e7bf;
+    color:  #3b2b06;
+    margin: auto;
+  }
+  .year{
+    font-weight: bolder;
+  }
+  #tribute-info{
+    text-align: left;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+    color:  #3b2b06;
+  }
+  .quote{
+    font-style: italic;
+    font-size: 1rem;
+  }
+  #quote-paragraph{
+    width: 80%;
+    color: #3b2b06;
+    font-weight: lighter;
+    margin: auto;
+    padding: 20px 0 0 0;
+  }
+  
+  #end{
+    padding: 0 0 20px 0;
+    font-size: 1rem;
+  }
+  

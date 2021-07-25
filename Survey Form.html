@@ -1,0 +1,117 @@
+<head>
+  <link rel="stylesheet" href="/surveyForm.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+
+      <h1 id="title" class="title text-center">
+        <div class="logo"></div>
+        Otaku Membership Form
+      </h1>
+      <p id="description" class="description">So you have decided to join us? <br>
+        Fill the form below then.
+      </p>
+    </header>
+
+    <form id="survey-form">
+
+      <div class="form-group">
+        <label for="name" id="name-label">
+          Name
+          <input class="form-control" id="name" type="text" placeholder="Enter your name" required />
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="number" id="number-label">
+          Age <span class="clue">(optional)</span></label>
+        <input class="form-control" id="number" type="number" placeholder="Age" min=16 max=25 />
+      </div>
+
+      <div class="form-group">
+        <label for="email" id="email-label">
+          Email
+          <input class="form-control" id="email" type="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-group">
+        <p id="grade">Select your level <span class="clue">(your grade)</span></p>
+        <select class="form-control" name="level" id="dropdown" required>
+          <option disabled selected value>Select ya option</option>
+          <option value="newbie">Newbie</option>
+          <option value="casual"> Casual</option>
+          <option value="regular">Regular</option>
+          <option value="casual">Otaku</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p id="devil-fruit">What devil fruit type do you like the most? <span class="clue">(your fave)</span></p>
+
+        <label>
+          <input name="user-recommend" id="raw" type="radio" value="raw" checked class="input-radio">
+          None
+        </label>
+        <label>
+          <input name="user-recommend" type="radio" value="paramecia" class="input-radio">
+          Paramecia
+        </label>
+        <label>
+          <input name="user-recommend" type="radio" value="logia" class="input-radio">
+          Logia
+        </label>
+        <label>
+          <input name="user-recommend" type="radio" value="zoan" class="input-radio">
+          Zoan
+        </label>
+      </div>
+
+      <div class="form-group">
+        <p id="skill-set">What are your skill sets?</p>
+        <div>
+          <label>
+            <input name="preference" type="checkbox" value="kempo" class="input-checkbox">Kempo
+          </label>
+        </div>
+        <div>
+          <label>
+
+            <input name="preference" type="checkbox" value="physical-str" class="input-checkbox">Physical
+            strength</label>
+        </div>
+        <div>
+          <label>
+            <input name="preference" type="checkbox" value="O-haki" class="input-checkbox">Observation Haki
+          </label>
+        </div>
+        <div>
+          <label>
+            <input name="preference" type="checkbox" value="A-haki" class="input-checkbox">Armament Haki
+            <label>
+        </div>
+        <div>
+          <label>
+          <input name="preference" type="checkbox" value="C-haki" class="input-checkbox">Conqueror's Haki
+          <label>
+        </div>
+        <div>
+          <label>
+          <input name="preference" type="checkbox" value="ninja" class="input-checkbox">Nin-Nin</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <p id="special-thing">Any special thing about you?</p>
+        <textarea id="comments" class="input-textarea" name="comment"
+          placeholder="Enter your special ability here..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+    </form>
+  </div>
+</body>
